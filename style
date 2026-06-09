@@ -114,3 +114,7 @@ footer {
         text-align: center;
     }
 }
+
+.titulo {
+    text-shadow: 5px 9px 6px black;
+}
