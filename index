@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computadores - Projeto Escolar</title>
+    <title>Computadores</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Computadores</h1>
+        <h1 class="titulo">Computadores</h1>
         <p class="subtitulo">Entendendo a tecnologia que mudou o mundo</p>
     </header>
 
@@ -74,8 +74,8 @@
     </main>
 
     <footer>
-        <p>Projeto Escolar - Computadores</p>
-        <p>Feito por: Henrique • 2026</p>
+        <p>Computadores</p>
+        <p>Henrique • 2026</p>
     </footer>
 </body>
 </html>
