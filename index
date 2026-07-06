@@ -104,20 +104,12 @@
         <footer>
           <p>Computadores • Henrique • 2026</p>
         </footer>
-      
-        <script>
-          // Animação ao rolar a página
-          const sections = document.querySelectorAll('section');
-      
-          const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-              }
-            });
-          }, { threshold: 0.15 });
-      
-          sections.forEach(section => observer.observe(section));
-        </script>
+
+        
+        <script src="script.js"></script>
+
+
+      </body>
+</html>
       </body>
       </html>
