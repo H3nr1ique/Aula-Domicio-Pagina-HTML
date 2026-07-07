@@ -3,83 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Computadores - Entendendo a tecnologia</title>
+  <title>Computadores - Entendendo a Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+    <body>
 
-  <header>
-    <div class="zoom-control">
-      <span>Zoom:</span>
-      <button onclick="zoomOut()">−</button>
-      <button onclick="resetZoom()">100%</button>
-      <button onclick="zoomIn()">+</button>
-    </div>
+        <header>
+          <h1>Computadores</h1>
+          <p class="subtitulo">Entendendo a tecnologia que mudou o mundo</p>
+        </header>
+      
+        <nav>
+          <ul>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#historia">História</a></li>
+            <li><a href="#componentes">Componentes</a></li>
+            <li><a href="#tipos">Tipos</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+          </ul>
+        </nav>
+      
+        <main>
+          <!-- Introdução -->
+          <section id="introducao">
+            <h2>Introdução</h2>
+            <p>O computador é uma máquina eletrônica capaz de processar dados e executar cálculos de forma incrivelmente rápida. Ele se tornou essencial na vida moderna, presente em escolas, empresas, hospitais, governos e em praticamente todos os lares.</p>
+          </section>
+      
+          <!-- História -->
+          <section id="historia">
+            <h2>História dos Computadores</h2>
+            <ul class="timeline">
+              <li><strong>1940s:</strong> ENIAC — O primeiro computador eletrônico geral.</li>
+              <li><strong>1970s:</strong> Surgimento dos computadores pessoais (Altair, Apple I).</li>
+              <li><strong>1980s:</strong> Popularização com Apple e IBM PC.</li>
+              <li><strong>Hoje:</strong> Computadores potentes, portáteis, com inteligência artificial.</li>
+            </ul>
+          </section>
+      
+          <!-- Componentes -->
+          <section id="componentes">
+            <h2>Principais Componentes</h2>
+            <div class="componentes-grid">
+              <div class="item">
+                <span>🖥️</span>
+                <strong>Monitor</strong><br>
+                Mostra as informações
+              </div>
+              <div class="item">
+                <span>⌨️</span>
+                <strong>Teclado</strong><br>
+                Usado para digitar
+              </div>
+              <div class="item">
+                <span>🖱️</span>
+                <strong>Mouse</strong><br>
+                Controla o cursor
+              </div>
+              <div class="item">
+                <span>💾</span>
+                <strong>Processador (CPU)</strong><br>
+                O "cérebro" do computador
+              </div>
+              <div class="item">
+                <span>🧠</span>
+                <strong>Memória RAM</strong><br>
+                Memória temporária
+              </div>
+              <div class="item">
+                <span>💽</span>
+                <strong>HD / SSD</strong><br>
+                Armazena os arquivos
+              </div>
+            </div>
+          </section>
+      
+          <!-- Tipos -->
+          <section id="tipos">
+            <h2>Tipos de Computadores</h2>
+            <ul>
+              <li><strong>Desktop</strong> — Computador de mesa tradicional</li>
+              <li><strong>Notebook / Laptop</strong> — Portátil e prático</li>
+              <li><strong>Tablet</strong> — Tela sensível ao toque</li>
+              <li><strong>Servidor</strong> — Potente para redes e dados</li>
+            </ul>
+          </section>
+      
+          <!-- Curiosidades -->
+          <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <ul>
+              <li>O primeiro mouse foi inventado em 1964 por Douglas Engelbart.</li>
+              <li>O Brasil é um dos maiores consumidores de tecnologia da América Latina.</li>
+              <li>Os supercomputadores atuais conseguem realizar bilhões de cálculos por segundo.</li>
+              <li>O primeiro vírus de computador foi criado em 1983.</li>
+            </ul>
+          </section>
+        </main>
+      
+        <footer>
+          <p>Computadores • Henrique • 2026</p>
+        </footer>
 
-    <h1>Computadores</h1>
-    <p class="subtitulo">Entendendo a tecnologia que mudou o mundo</p>
-  </header>
+        
+        <script src="script.js"></script>
 
-  <nav>
-    <ul>
-      <li><a href="#introducao">Introdução</a></li>
-      <li><a href="#historia">História</a></li>
-      <li><a href="#componentes">Componentes</a></li>
-      <li><a href="#tipos">Tipos</a></li>
-      <li><a href="#curiosidades">Curiosidades</a></li>
-    </ul>
-  </nav>
 
-  <main>
-    <section id="introducao">
-      <h2>Introdução</h2>
-      <p>O computador é uma máquina eletrônica capaz de processar dados e executar cálculos de forma incrivelmente rápida. Ele se tornou essencial na vida moderna, presente em escolas, empresas, hospitais, governos e em praticamente todos os lares.</p>
-    </section>
-
-    <section id="historia">
-      <h2>História dos Computadores</h2>
-      <ul class="timeline">
-        <li><strong>1940s:</strong> ENIAC — O primeiro computador eletrônico geral.</li>
-        <li><strong>1970s:</strong> Surgimento dos computadores pessoais (Altair, Apple I).</li>
-        <li><strong>1980s:</strong> Popularização com Apple e IBM PC.</li>
-        <li><strong>Hoje:</strong> Computadores potentes, portáteis, com inteligência artificial.</li>
-      </ul>
-    </section>
-
-    <section id="componentes">
-      <h2>Principais Componentes</h2>
-      <div class="componentes-grid">
-        <div class="item"><span>🖥️</span><strong>Monitor</strong><br>Mostra as informações</div>
-        <div class="item"><span>⌨️</span><strong>Teclado</strong><br>Usado para digitar</div>
-        <div class="item"><span>🖱️</span><strong>Mouse</strong><br>Controla o cursor</div>
-        <div class="item"><span>💾</span><strong>Processador (CPU)</strong><br>O "cérebro" do computador</div>
-        <div class="item"><span>🧠</span><strong>Memória RAM</strong><br>Memória temporária</div>
-        <div class="item"><span>💽</span><strong>HD / SSD</strong><br>Armazena os arquivos</div>
-      </div>
-    </section>
-
-    <section id="tipos">
-      <h2>Tipos de Computadores</h2>
-      <ul>
-        <li><strong>Desktop</strong> — Computador de mesa tradicional</li>
-        <li><strong>Notebook / Laptop</strong> — Portátil e prático</li>
-        <li><strong>Tablet</strong> — Tela sensível ao toque</li>
-        <li><strong>Servidor</strong> — Potente para redes e dados</li>
-      </ul>
-    </section>
-
-    <section id="curiosidades">
-      <h2>Curiosidades</h2>
-      <ul>
-        <li>O primeiro mouse foi inventado em 1964 por Douglas Engelbart.</li>
-        <li>O Brasil é um dos maiores consumidores de tecnologia da América Latina.</li>
-        <li>Os supercomputadores atuais conseguem realizar bilhões de cálculos por segundo.</li>
-        <li>O primeiro vírus de computador foi criado em 1983.</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>Computadores • Henrique • 2026</p>
-  </footer>
-</body>
+      </body>
 </html>
+      </body>
+      </html>
